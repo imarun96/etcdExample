@@ -9,6 +9,7 @@ download etcd from the link - https://github.com/etcd-io/etcd/releases
 ```
 Configure etcd properties:
 ```
+```
 spring:
 
   cloud:
