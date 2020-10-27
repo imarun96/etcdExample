@@ -10,10 +10,15 @@ download etcd from the link - https://github.com/etcd-io/etcd/releases
 Configure etcd properties:
 ```
 spring:
+
   cloud:
+  
     etcd:
+    
       endpoints: http://127.0.0.1:2379
+      
       discovery:
+      
         prefix: /services
 ```
 
