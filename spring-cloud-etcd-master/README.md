@@ -20,7 +20,7 @@ spring:
 After server started up, check service-registry by etcdctl:
 
 ```
--> % ETCDCTL_API=3 etcdctl get /services --prefix
+-> % etcdctl get /services --prefix
 /services/application/192.168.1.102:8080
 {"serviceName":"application","address":"192.168.1.102","port":8080,"serviceId":"application"}
 ```
